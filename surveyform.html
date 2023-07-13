@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>survey form</title>
+        <style>
+            form{
+                background-color:aqua ;
+            }
+        </style>
+        
+        <body >
+            <forms action="/submit-forms" methord="POST" target="_blank">
+                <fieldset>
+                    <legend>survey form</legend><br>
+                   <h3><label for="name">full name:</label>
+                   <input type="text" id="name" placeholder="yash mishra"><br><br>
+                    <label for="email">email:</label>
+                    <input type="text" id="email" placeholder="yashmishra4356@gmai.com"><br><br>
+                    <label for="text">password:</label>
+                    <input type="text"  id="password" required><br><br>
+                    <label for="age">Age:</label>
+                    <input type="text" id="age" required><br><br></h3>
+                   <h2> <b><label for="text">which option best describe your current rate?</label></b></h2>
+                    <select id="current role">
+                        <option value="student">Student</option>  
+                    <option value="teacher">Teacher</option> 
+                    <option value="house wife">house wife</option> 
+                    <option value="employee">employee</option>
+                    <option value="bussinessman">bussinessman</option>
+
+                    </select><br><br>
+                    <h2><b><label for="text">How likely is that you would recommend this course to your friend </label><br><br></b></h2>
+                    <input type="radio" >DEFINETLY<br><br>
+                    <input type="radio"> MAY BE<br><br>
+                    <input type="radio">NOT SURE<br><br>
+                    <h2><b><label for="text">What do you like the most in the course</label></b></h2>
+                
+                    <select id="option">
+                        
+                        <option value="html">html</option>
+                        <option value="css">css</option>
+
+                    </select><br><br>
+                   <h2><b><label for="text">Thing that should be improved in the future</label><br><br></b></forms></h2>
+                   <input type="radio">Front End Development<br>
+                   <input type="radio">Back End Development<br>
+                   <input type="radio">Data Visiualisation
+
+
+
+
+
+
+                </fieldset>
+            
+        </body>
+    </head>
+</html>
